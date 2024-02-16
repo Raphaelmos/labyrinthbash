@@ -2,6 +2,8 @@
 #include <dos.h>
 #include <process.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <direct.h>
 #define LENGTH 20
 #define KEY_UP 72
 #define KEY_DOWN 80
