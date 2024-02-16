@@ -88,12 +88,12 @@ int main() {
              *                                                   *   
              *  Objectif : Le joueur  doit atteindre la fin du   * 
              *             labyrinthe en respectant les limites  *
-             *             du labyrinthe.                        *
+             *             du labyrinthe.    			                 *
              *                                                   *
              *                                                   *   
-             *                                                   *
-             *                                                   *
-             *                                                   *   
+             *             The player have to go to the end of   *                                     
+             *             the parkour marked by the cross "X",  *                                   
+             *             you are the player "P".               *   
              *                                                   *
              *****************************************************
                 :\n");
@@ -101,19 +101,19 @@ int main() {
         matrice();
         get_position();
         if (check_direction() == 1) move();
-        else printf("Veuillez respecter les délimitations du labyrinthe !\n");
+        else printf("Veuillez respecter les délimitations du labyrinthe - Respect the limits !\n");
     }
     matrice();
     printf("*****************************************************
              *                                                   *                                                     
              *                VOUS AVEZ GAGNE !!!                *   
              *                                                   * 
-             *                                                   *
+             *                    YOU WON  ! !                   *
              *                                                   *
              *                                                   *
              *                 Félicitations !                   *   
              *                                                   *
-             *                                                   *
+             *                    Congrats !                     *
              *                                                   *   
              *                                                   *
              *****************************************************");
